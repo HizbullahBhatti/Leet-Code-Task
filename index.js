@@ -22,20 +22,24 @@
 
 //********************************************************************************//
 
-let abc = "fhdsjkfhsjfdsfjhabb"
-//console.log(abc[0])
-let result = false;
+// let abc = "fhdsjkfhsjfdsfjhabb"
+// console.log(abc[0])
+// let result = false;
 
-for(let i = 0 ; i < abc.length ; i++){
-    if(abc[i]=='a'){
-        if(abc[i+1]=='b'){
-            if (abc[i+2]=='b') {
-                result = true
-            }
-        }
-    }
-}
-console.log(result)
+// for(let i = 0 ; i < abc.length ; i++){
+//     if(abc[i]=='a'){
+//         if(abc[i+1]=='b'){
+//             if (abc[i+2]=='b') {
+//                 result = true
+//             }
+//         }
+//     }
+// }
+// console.log(result)
+
+console.log("Git is working or not")
+
+
 
 
 
