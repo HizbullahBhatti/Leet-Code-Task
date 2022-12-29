@@ -37,7 +37,15 @@
 // }
 // console.log(result)
 
-console.log("Git is working or not")
+// console.log("Git is working or not")
+
+//Defualt Parameter
+
+function sum(a,b=5){
+    console.log(a*b)
+}
+
+sum(2)
 
 
 
