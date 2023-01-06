@@ -249,9 +249,19 @@
 
 //Flat Method of Array
 
-let arr = [1,2,3,[4,5,6,[7,8,9,[10,11,12]]]]
-console.log(arr.flat(Infinity))
+// let arr = [1,2,3,[4,5,6,[7,8,9,[10,11,12]]]]
+// console.log(arr.flat(Infinity))
 
+//Object from entries
 
+let obj = {
+    name:"Hizbullah",
+    age:22,
+}
+
+let name2 = [["name","Hizbullah",["caste",'bhatti']],["age",22]]
+console.log(Object.fromEntries(Object.entries(obj))) //It will return an object using the key value pair from an array of arrays
+console.log(Object.entries(obj))  //it will return an array of values
+console.log(Object.fromEntries(name2))
 
 
