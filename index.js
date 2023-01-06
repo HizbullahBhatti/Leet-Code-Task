@@ -307,3 +307,16 @@
 
 // fun1()
 
+//Currying in JavaScript
+//Currying is a technique of evaluating function with multiple arguments, into sequence of function with single argument
+
+const sum = (num1)=>{
+    return function(num2){
+        return function(num3){
+            console.log(num1,num2,num3)
+        }
+    } //This is called currying
+
+}
+
+sum(1)(2)(3)
