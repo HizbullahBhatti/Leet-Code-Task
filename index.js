@@ -193,11 +193,34 @@
 
 ///Array Destructuring
 
-let arr = ["Hizbullah","Bhatti","Sukkur IBA"]
+// let arr = ["Hizbullah","Bhatti","Sukkur IBA"]
 
-let [name,caste,uni] = arr;
+// let [name,caste,uni] = arr;
 
-console.log(name)
+// console.log(name)
+
+// Object Destructuring
+
+// let obj = {
+//     name:"HIzbullah",
+//     caste:"Bhatti",
+//     city:"Kumb",
+//     getAllData(){return `My Name is ${obj.name} , My caste is ${obj.caste} and my city is ${obj.city}`}
+// }
+
+// let {name,caste,city,getAllData} = obj;
+
+// console.log(getAllData())
+
+//Dynamic Object Destructuring
+// [] will show the value of the variable and not the variable name itself
+
+let myName = "Hizbullah"
+const obj = {
+    myName : "hello how are you",
+    [myName] : "I am fine",
+}
+console.log(obj)
 
 
 
