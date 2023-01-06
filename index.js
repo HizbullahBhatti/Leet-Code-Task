@@ -13,11 +13,9 @@
 //             }
 //         }
 //     }
-    
 
 //     console.log(result)
-    
-    
+
 // }
 
 //********************************************************************************//
@@ -67,13 +65,11 @@
 //         else{
 //             console.log("Not Greater than 10")
 //         }
-    
-        
+
 //     }return arr2;
 // }
 
 // console.log(findElementGreaterThanTen(num))
-
 
 //Filter Method
 
@@ -85,7 +81,6 @@
 
 // console.log(array1)
 // console.log(newArray)
-
 
 //Map Method
 
@@ -117,7 +112,7 @@
 
 // console.log(newArray)
 
-//String Method 
+//String Method
 
 // let str = "Hizbullah"
 
@@ -168,7 +163,7 @@
 // console.log(new Date());
 
 // console.log(new Date().toLocaleString())
- 
+
 // console.log(new Date().toString());
 
 // console.log(new Date().toDateString());
@@ -278,7 +273,18 @@
 //addEventListner is used to add an event to an element it has 3 parameters 1st is event name 2nd is function and 3rd is boolean
 
 
+//Synchrounous JavaScript
+//Sync means one after another, means jab ek task complete hojaye tab dusra task start hojaye
+//Sync means one line of code is executed after another line of code is executed
 
+const fun2 = ()=>{
+    console.log("Function 2 is called")
+}
 
+const fun1 = ()=>{
+    console.log("Function 1 is called")
+    fun2() 
+    console.log("Function 1 is called again")
+}
 
-
+fun1()
