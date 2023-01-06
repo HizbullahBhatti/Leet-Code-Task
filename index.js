@@ -240,11 +240,18 @@
 
 //Rest operator for Objects
 
-let obj = {name:"Hizbullah",age:22,city:"Kumb"}
-let obj2 = {...obj,caste:"Bhatti"}
+// let obj = {name:"Hizbullah",age:22,city:"Kumb"}
+// let obj2 = {...obj,caste:"Bhatti"}
 
-console.log(obj2)
-console.log(obj)
-console.log(obj2.caste)
+// console.log(obj2)
+// console.log(obj)
+// console.log(obj2.caste)
+
+//Flat Method of Array
+
+let arr = [1,2,3,[4,5,6,[7,8,9,[10,11,12]]]]
+console.log(arr.flat(Infinity))
+
+
 
 
