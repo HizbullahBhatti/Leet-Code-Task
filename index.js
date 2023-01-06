@@ -231,13 +231,20 @@
 
 //Object entries and values
 
-let obj = {
-    name:"Hizbullah",
-    age:22,
-}
-console.log(Object.entries(obj)); //It will return an array of arrays using the key value pair
-console.log(Object.values(obj));  //it will return an array of values
+// let obj = {
+//     name:"Hizbullah",
+//     age:22,
+// }
+// console.log(Object.entries(obj)); //It will return an array of arrays using the key value pair
+// console.log(Object.values(obj));  //it will return an array of values
 
+//Rest operator for Objects
 
+let obj = {name:"Hizbullah",age:22,city:"Kumb"}
+let obj2 = {...obj,caste:"Bhatti"}
+
+console.log(obj2)
+console.log(obj)
+console.log(obj2.caste)
 
 
