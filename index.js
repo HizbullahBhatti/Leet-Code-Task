@@ -119,12 +119,77 @@
 
 //String Method 
 
-let str = "Hizbullah"
+// let str = "Hizbullah"
 
-let str2 = str.substring(2,5)
-console.log(str2)
+// let str2 = str.substring(2,5)
+// console.log(str2)
 
+/////Replace Method
 
+// let a = "Hizbullah"
+// let b = a.replace("Hizb","Safi")
+// console.log(b);
+
+///CharCode method of String
+//charAt
+
+// console.log(a.charCodeAt(a.length-1))
+
+//Property Access method of String
+
+// let str = "Hizbullah"
+// console.log(str[0])
+
+//upper and lower Case
+// let a = "HIZBULLAH"
+// let b = "bhatti"
+
+// console.log(a.toLowerCase())
+// console.log(b.toUpperCase())
+
+//Concate Method same as +
+
+// let a = "hello"
+// console.log(a.concat(" World"))
+
+//trim method of String
+// let a = "                   Hizbullah               ";
+// console.log(a)
+// let trimmedA = a.trim()
+// console.log(trimmedA)
+
+//Convert String to an Array
+// let text = 'a b c d e f'
+// let textArray = text.split(' ');
+// console.log(textArray)
+
+//Date Object in JavaScript
+
+// console.log(new Date());
+
+// console.log(new Date().toLocaleString())
+ 
+// console.log(new Date().toString());
+
+// console.log(new Date().toDateString());
+
+// console.log(new Date().toLocaleTimeString());
+
+// console.log(Date.now())
+
+// console.log("----------------------------------------")
+// console.log(new Date(2021,11,24,2,45,23,45))
+
+/////Objects
+
+const obj = {
+    name:"HIzbullah",
+    obj2:{
+        name:"ahmed"
+    }
+}
+console.log(obj.name)
+console.log(obj.obj2.name)
 
 
 
