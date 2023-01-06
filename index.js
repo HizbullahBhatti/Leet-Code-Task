@@ -224,11 +224,19 @@
 
 //Spread Operator
 
-let a =[1,2,3,4,5]
-let b = [6,7,8,9,10]
-let c = [...a,...b]
-console.log(c)
+// let a =[1,2,3,4,5]
+// let b = [6,7,8,9,10]
+// let c = [...a,...b]
+// console.log(c)
 
+//Object entries and values
+
+let obj = {
+    name:"Hizbullah",
+    age:22,
+}
+console.log(Object.entries(obj)); //It will return an array of arrays using the key value pair
+console.log(Object.values(obj));  //it will return an array of values
 
 
 
