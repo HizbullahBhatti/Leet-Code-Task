@@ -254,14 +254,31 @@
 
 //Object from entries
 
-let obj = {
-    name:"Hizbullah",
-    age:22,
-}
+// let obj = {
+//     name:"Hizbullah",
+//     age:22,
+// }
 
-let name2 = [["name","Hizbullah",["caste",'bhatti']],["age",22]]
-console.log(Object.fromEntries(Object.entries(obj))) //It will return an object using the key value pair from an array of arrays
-console.log(Object.entries(obj))  //it will return an array of values
-console.log(Object.fromEntries(name2))
+// let name2 = [["name","Hizbullah",["caste",'bhatti']],["age",22]]
+// console.log(Object.fromEntries(Object.entries(obj))) //It will return an object using the key value pair from an array of arrays
+// console.log(Object.entries(obj))  //it will return an array of values
+// console.log(Object.fromEntries(name2))
+
+//BigInt
+
+// let oldNum = Number.MAX_SAFE_INTEGER;
+// let num = 1n+2n;
+// console.log(typeof num)
+
+//Event Capture and Bubbling
+//addEventListener has 3rd parameter which is boolean and by default it is false which is called event bubbling
+//if we set it to true then it is called event capturing
+
+//addEventListener
+//addEventListner is used to add an event to an element it has 3 parameters 1st is event name 2nd is function and 3rd is boolean
+
+
+
+
 
 
