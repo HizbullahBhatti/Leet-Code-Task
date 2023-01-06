@@ -274,17 +274,36 @@
 
 
 //Synchrounous JavaScript
-//Sync means one after another, means jab ek task complete hojaye tab dusra task start hojaye
+//Sync means one after another, means jab tak ek task complete na hojaye tab tak dusra task start nhn hoga
 //Sync means one line of code is executed after another line of code is executed
 
-const fun2 = ()=>{
-    console.log("Function 2 is called")
-}
+// const fun2 = ()=>{
+//     console.log("Function 2 is called")
+// }
 
-const fun1 = ()=>{
-    console.log("Function 1 is called")
-    fun2() 
-    console.log("Function 1 is called again")
-}
+// const fun1 = ()=>{
+//     console.log("Function 1 is called")
+//     fun2() 
+//     console.log("Function 1 is called again")
+// }
 
-fun1()
+// fun1()
+
+//Asynchrounous JavaScript
+//Async means one line of code is executed and then another line of code is executed
+//Async means kam rukna nhi hai aur dusra kam start hojaye
+
+// const fun2 = ()=>{
+//     setTimeout(()=>{
+//         console.log("Function 2 is called")
+//     },5000)
+// }
+
+// const fun1 = ()=>{
+//     console.log("Function 1 is called")
+//     fun2() 
+//     console.log("Function 1 is called again")
+// }
+
+// fun1()
+
