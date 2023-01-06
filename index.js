@@ -182,14 +182,22 @@
 
 /////Objects
 
-const obj = {
-    name:"HIzbullah",
-    obj2:{
-        name:"ahmed"
-    }
-}
-console.log(obj.name)
-console.log(obj.obj2.name)
+// const obj = {
+//     name:"HIzbullah",
+//     obj2:{
+//         name:"ahmed"
+//     }
+// }
+// console.log(obj.name)
+// console.log(obj.obj2.name)
+
+///Array Destructuring
+
+let arr = ["Hizbullah","Bhatti","Sukkur IBA"]
+
+let [name,caste,uni] = arr;
+
+console.log(name)
 
 
 
