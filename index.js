@@ -390,13 +390,15 @@ sum(1)(2)(3)
 //Async Await is used to handle asynchronous operations in JavaScript
 
 const getItems = async ()=>{
-    
-    const response = await fetch("https://fakestoreapi.com/products/2") //This will return a promise
-    const data = await response.json() //waits for the response to be converted into json
-    console.log(data)
-
+    try{
+        const response = await fetch("https://fakestoreapi.com/products/1")
+        const data = await response.json()
+        console.log(data)
+    }
+    catch(error){
+        console.log(`The error is ${error}`)
+    }
 }
-
 getItems()
 
 
