@@ -320,3 +320,27 @@ const sum = (num1)=>{
 }
 
 sum(1)(2)(3)
+
+//Using Arrow Function for Currying
+
+// const sum2 = (num1)=>(num2)=>(num3)=>console.log(num1,num2,num3)
+
+//Callback Hell 
+//Callback Hell is a problem in asynchronous programming in which the callback function is nested inside another callback function
+
+// let callbackHell = setTimeout(()=>{
+//     console.log("Callback Hell 1")
+//     setTimeout(()=>{
+//         console.log("Callback Hell 2")
+//         setTimeout(()=>{
+//             console.log("Callback Hell 3")
+//             setTimeout(()=>{
+//                 console.log("Callback Hell 4")
+//             },5000)
+//         },5000)
+//     },5000)
+// },5000)
+
+
+
+
