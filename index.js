@@ -356,16 +356,48 @@ sum(1)(2)(3)
 //Stringify is used to convert an object into a string
 //Parse is used to convert a string into an object
 
-let obj = {
-    name:"Hizbullah",
-    age:22,
-    city:"Kumb",
-}
+// let obj = {
+//     name:"Hizbullah",
+//     age:22,
+//     city:"Kumb",
+// }
  
-let object_as_string = JSON.stringify(obj)
-console.log(object_as_string)
-console.log(typeof object_as_string)
-console.log(JSON.parse(object_as_string))
+// let object_as_string = JSON.stringify(obj)
+// console.log(object_as_string)
+// console.log(typeof object_as_string)
+// console.log(JSON.parse(object_as_string))
+
+//Promises
+//Promises are used to handle asynchronous operations in JavaScript
+//Promises have 3 states
+//1. Pending
+//2. Resolved
+//3. Rejected
+
+
+
+//Fetch API
+//Fetch API is used to make HTTP requests
+
+// fetch("https://fakestoreapi.com/products/1")
+// .then((response)=>response.json())  //This will return a promise
+// .then((data)=>console.log(data)) 
+
+//Now we will use async await to handle promises hanre jeko Fetch API sa kayo uho Async Await sa kandase
+
+//Async Await
+//Async Await is used to handle promises in a better way then then and catch method of promises
+//Async Await is used to handle asynchronous operations in JavaScript
+
+const getItems = async ()=>{
+    
+    const response = await fetch("https://fakestoreapi.com/products/2") //This will return a promise
+    const data = await response.json() //waits for the response to be converted into json
+    console.log(data)
+
+}
+
+getItems()
 
 
 
