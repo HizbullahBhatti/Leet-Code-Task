@@ -343,14 +343,29 @@ sum(1)(2)(3)
 
 //XML HTTP Request
 
-const request = new XMLHttpRequest();
+// const request = new XMLHttpRequest();
 
-request.open("GET","https://jsonplaceholder.typicode.com/todos")
-request.send();
+// request.open("GET","https://jsonplaceholder.typicode.com/todos")
+// request.send();
 
-request.addEventListener("load",function(){
-    console.log(this.responseText)
-})
+// request.addEventListener("load",function(){
+//     console.log(this.responseText)
+// })
+
+//JSON Stringify and JSON Parse
+//Stringify is used to convert an object into a string
+//Parse is used to convert a string into an object
+
+let obj = {
+    name:"Hizbullah",
+    age:22,
+    city:"Kumb",
+}
+ 
+let object_as_string = JSON.stringify(obj)
+console.log(object_as_string)
+console.log(typeof object_as_string)
+console.log(JSON.parse(object_as_string))
 
 
 
